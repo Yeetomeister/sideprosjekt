@@ -10,17 +10,26 @@ export function Navigation() {
           </Link>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-lg">
-          <Link href="/my-links" className="text-emerald-950 hover:text-blue-200">
+          <Link
+            href="/my-links"
+            className="text-emerald-950 hover:text-blue-200"
+          >
             Social links
           </Link>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-lg">
-          <Link href="/my-projects" className="text-emerald-950 hover:text-blue-200">
+          <Link
+            href="/my-projects"
+            className="text-emerald-950 hover:text-blue-200"
+          >
             My projects
           </Link>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-lg">
-          <Link href="/my-blog" className="text-emerald-950 hover:text-blue-200">
+          <Link
+            href="/my-blog"
+            className="text-emerald-950 hover:text-blue-200"
+          >
             Blog posts
           </Link>
         </div>
