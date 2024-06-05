@@ -22,11 +22,15 @@ const BlogPosts: React.FC = () => {
                 <br></br>
               </div>
             ))}
-              {post.link?.map((link) => (
-                  <Link href={link.href} key={link.text} className="text-pink-500 hover:underline">
-                    {link.text}
-                  </Link>
-              ))}
+            {post.link?.map((link) => (
+              <Link
+                href={link.href}
+                key={link.text}
+                className="text-pink-500 hover:underline"
+              >
+                {link.text}
+              </Link>
+            ))}
           </li>
         ))}
       </ul>
