@@ -1,5 +1,6 @@
 import React from "react";
 import { posts } from "@/utils/blogPosts";
+import Link from "next/link";
 const BlogPosts: React.FC = () => {
   return (
     <div className="bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
@@ -21,6 +22,11 @@ const BlogPosts: React.FC = () => {
                 <br></br>
               </div>
             ))}
+              {post.link?.map((link) => (
+                  <Link href={link.href} key={link.text} className="text-pink-500 hover:underline">
+                    {link.text}
+                  </Link>
+              ))}
           </li>
         ))}
       </ul>
