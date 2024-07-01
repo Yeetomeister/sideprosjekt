@@ -13,13 +13,17 @@ const BlogPosts: React.FC = () => {
             <h3 className="text-white text-xl">{post.title}</h3>
             <p className="text-gray-200">{post.date}</p>
             {post.content && <p className="text-gray-200">{post.content}</p>}
-            {post.sections?.map((section) => (
-              <div key={section.title}>
+            {post.sections?.map((section, index) => (
+              <div key={index}>
                 {section.title && (
                   <h4 className="text-lg text-gray-300">{section.title}</h4>
                 )}
-                <p className="text-sm text-gray-200">{section.content}</p>
-                <br></br>
+                {section.content?.map((paragraph, idx) => (
+                  <p key={idx} className="text-sm text-gray-200">
+                    {paragraph}
+                  </p>
+                ))}
+                <br />
               </div>
             ))}
             {post.link?.map((link) => (
