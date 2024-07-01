@@ -1,0 +1,3 @@
+npm run dev // hot reloading
+npm run build // build to deploy or test production
+npm run start // start production server
