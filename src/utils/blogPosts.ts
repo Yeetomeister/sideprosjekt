@@ -1,6 +1,7 @@
 //src /utils/blogPosts.ts
 
 export interface BlogPost {
+  postId: number;
   title: string;
   date: string;
   content?: string; //? makes this property optional
@@ -9,11 +10,13 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    postId: 1,
     title: "First blog post",
     date: "04.06.2024",
     content: "Blog test",
   },
   {
+    postId: 2,
     title: "Obama Gaming: Our Agile Jouney",
     date: "04.06.2024",
     sections: [
