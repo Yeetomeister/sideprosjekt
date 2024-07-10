@@ -1,8 +1,9 @@
 import React, {useState} from "react";
-import axios from 'axios';
+import axios from "axios";
 import { posts } from "@/utils/blogPosts";
+
 const BlogPosts: React.FC = () => {
-    const[likes, steLikes] = useState<{ [key: number]: number }>({});
+    const[likes, setLikes] = useState<{ [key: number]: number }>({});
 
     const handleLike = async (postId: number) => {
         try {
