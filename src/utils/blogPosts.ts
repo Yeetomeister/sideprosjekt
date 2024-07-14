@@ -50,7 +50,7 @@ export const posts: BlogPost[] = [
         title: "Privilege Escalation",
         content: [
           "Running sudo -l I found a single file that could be run as root without password; /usr/bin/syscheck",
-          "Analysing this file, I found that is rad a shell file called initdb.sh, which I could edit. I therefore modified this file to include a reverse shell, and ran the syscheck file as root.",
+          "Analysing this file, I found that it ran a shell file called initdb.sh, which I could edit. I therefore modified this file to include a reverse shell, and ran the syscheck file as root.",
           "The last step was to find the root flag, which I found by again using the find command.",
         ],
       },
