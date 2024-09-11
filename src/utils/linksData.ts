@@ -22,7 +22,7 @@ export const links: Link[] = [
     icon: "https://assets.tryhackme.com/img/favicon.png",
   },
   {
-    href: "https://www.linkedin.com/in/trym-jakobsen-248094252/",
+    href: "https://www.linkedin.com/in/trym-jakobsen/",
     text: "LinkedIn",
     icon: "https://img.icons8.com/fluent/48/000000/linkedin.png",
   },
