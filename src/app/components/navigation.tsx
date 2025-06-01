@@ -27,8 +27,8 @@ export function Navigation() {
         </div>
         <div className="bg-white p-4 rounded-lg shadow-lg">
           <Link
-              href="/my-links"
-              className="text-emerald-950 hover:text-blue-200"
+            href="/my-links"
+            className="text-emerald-950 hover:text-blue-200"
           >
             Social links
           </Link>

@@ -16,7 +16,9 @@ export default function Home() {
   function Header() {
     return (
       <div>
-        <h1 className="text-5xl font-semibold text-center text-indigo-500">Welcome</h1>
+        <h1 className="text-5xl font-semibold text-center text-indigo-500">
+          Welcome
+        </h1>
       </div>
     );
   }
