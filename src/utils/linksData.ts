@@ -8,7 +8,7 @@ export interface Link {
 export const links: Link[] = [
   {
     href: "https://github.com/Yeetomeister",
-    text: "Personal GitHub",
+    text: "GitHub",
     icon: "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
   },
   {
