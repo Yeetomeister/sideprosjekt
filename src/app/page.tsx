@@ -3,10 +3,10 @@ import { Navigation } from "@/app/components/navigation";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-700 via-blue-800 to-blue-950 text-white">
       <Navigation />
       <br />
-      <div className="flex-grow">
+      <div className="flex flex-1 items-center justify-center">
         <Header />
       </div>
       <Footer />
@@ -16,7 +16,9 @@ export default function Home() {
   function Header() {
     return (
       <div>
-        <h1 className="text-4xl flex-grow text-center">Welcome</h1>
+        <h1 className="text-5xl font-semibold text-center text-indigo-500">
+          Welcome
+        </h1>
       </div>
     );
   }

@@ -1,8 +1,8 @@
 import Link from "next/link";
 export function ProjectList() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500">
-      <ul className="pl-4 list-disc space-y-4 ">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-indigo-500 via-blue-800 to-gray-800 p-8 rounded-lg">
+      <ul className="pl-4 list-disc space-y-4 text-white">
         <li>
           <h3 className="text-lg">Tetris</h3>
           <p className="text-sm">
@@ -31,8 +31,8 @@ export function ProjectList() {
           </p>
         </li>
       </ul>
-      <br></br>
-      <p className="text-sm text-white">
+
+      <p className="mt-10 text-sm text-white">
         Feel free to read about my experiences working on these projects on my{" "}
         <Link href="/my-blog" className="text-blue-400 hover:underline">
           blog

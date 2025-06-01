@@ -3,7 +3,7 @@ import Link from "next/link";
 import { links } from "@/utils/linksData";
 const SocialLinks = () => {
   return (
-    <div className="bg-gradient-to-b from-emerald-500 from-10% via-sky-500 via-30% to-indigo-500 to-90% p-8 rounded-lg shadow-lg">
+    <div className="bg-gradient-to-b from-indigo-500 via-blue-800 to-gray-800 p-8 rounded-lg shadow-lg">
       <ul className="space-y-4">
         {links.map((link) => (
           <li key={link.href} className="flex items-center space-x-4">
